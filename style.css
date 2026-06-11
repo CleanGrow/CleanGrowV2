@@ -10,13 +10,11 @@ body {
     min-height: 100vh;
 }
 
-/* ─── BORDA "L" verde em todas as subpáginas ─── */
 body:has(a.voltar) {
     border-left: 2px solid #1e6b40;
     border-top: 2px solid #1e6b40;
 }
 
-/* ─── FAIXA TOPO "Início" ─── */
 a.voltar {
     display: block;
     background: #c8c8c0;
@@ -28,7 +26,6 @@ a.voltar {
     text-decoration: none;
 }
 
-/* ─── TÍTULO DE PÁGINA ─── */
 .pagina-titulo {
     padding: 18px 30px 10px;
 }
@@ -47,12 +44,10 @@ a.voltar {
     margin-left: 10px;
 }
 
-/* ─── CONTEÚDO ─── */
 .conteudo {
     padding: 0 30px 120px;
 }
 
-/* ─── CARD DE DADO ─── */
 .card {
     padding: 24px 0 0 0;
 }
@@ -63,7 +58,6 @@ a.voltar {
     margin-bottom: 10px;
 }
 
-/* ─── DISPLAY PRETO + VERMELHO ─── */
 .valor {
     display: block;
     background: #000;
@@ -77,7 +71,6 @@ a.voltar {
     border-radius: 4px;
 }
 
-/* ─── BOTÃO ─── */
 .botao {
     display: inline-block;
     background: #1e6b40;
@@ -98,7 +91,6 @@ a.voltar {
     cursor: not-allowed;
 }
 
-/* ─── RODAPÉ FIXO ─── */
 .rodape {
     position: fixed;
     bottom: 0;
@@ -129,7 +121,6 @@ a.voltar {
 
 .rodape-voltar:hover { text-decoration: underline; }
 
-/* ─── IRRIGAÇÃO ─── */
 .irrig-layout {
     display: flex;
     align-items: flex-start;
